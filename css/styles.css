@@ -8,7 +8,7 @@ h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -37,7 +37,7 @@ h3 {
 a {
     text-decoration: none;
 }
-
+/* HEADER */
 .header {
 
 }
@@ -89,10 +89,39 @@ a {
     color: #434455;
 }
 
-.header-address-contacts:hover{
+.header-address-contacts:hover { 
     color: #404bbf;
 }
 
-.header-address-contacts:focus{
+.header-address-contacts:focus {
     color: #404bbf;
+}
+
+/* introduction */
+.main-section-one {
+    background-color: #2e2f42;
+}
+
+.main-section-one-button {
+    cursor: pointer;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}/*
+.main-section-one-butto:hover {
+    background-color: #404BBF
+}
+
+.main-section-one-butto:focus {
+    background-color: #404BBF
+}*/
+ button:hover {
+    background-color: #404BBF
+ }
+
+button:focus {
+    background-color: #404BBF
 }
