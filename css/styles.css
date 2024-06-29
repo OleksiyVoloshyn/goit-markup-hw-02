@@ -34,9 +34,64 @@ h3 {
     color: #2e2f42;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header {
 
 }
 .header-nav {
-   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-nav-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d5ae5;
+}
+
+.header-nav-logo-span {
+    color: #2e2f42;
+}
+
+.header-nav-page {
+    color: #2e2f42;
+}
+
+.header-nav-page :hover {
+    color: #404bbf;
+}
+
+.header-nav-page :focus {
+    color: #404bbf;
+}
+
+.header-address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+
+.header-address-contacts {
+    color: #434455;
+}
+
+.header-address-contacts :hover{
+    color: #404bbf;
+}
+
+.header-address-contacts :focus{
+    color: #404bbf;
 }
