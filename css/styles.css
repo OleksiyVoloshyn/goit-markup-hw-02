@@ -18,10 +18,11 @@ h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 h3 {
@@ -103,6 +104,7 @@ a {
 }
 
 .main-section-one-button {
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
     background-color: #4d5ae5;
     font-weight: 500;
@@ -110,18 +112,33 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-}/*
-.main-section-one-butto:hover {
-    background-color: #404BBF
 }
 
-.main-section-one-butto:focus {
-    background-color: #404BBF
-}*/
  button:hover {
     background-color: #404BBF
  }
 
 button:focus {
     background-color: #404BBF
+}
+/* foundations of business */
+.main-section-two-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* our team*/
+.main-section-three {
+    background-color: #f4f4fd;
+}
+.main-section-three-list {
+    background-color: #FFFFFF;
+}
+.main-section-three-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
