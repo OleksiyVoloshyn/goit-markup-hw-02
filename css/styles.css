@@ -143,3 +143,36 @@ button:focus {
     letter-spacing: 0.02em;
 }
 /* Our Portfolio */
+.main-section-four-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* footer */
+.footer-web {
+    background-color: #2e2f42;
+}
+
+.footer-web-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d5ae5;
+}
+
+.footer-web-logo-span {
+    color: #f4f4fd;
+}
+
+.footer-web-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
